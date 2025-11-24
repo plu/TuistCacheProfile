@@ -35,4 +35,4 @@ tuist generate CacheProfile Path
 ```
 
 * Expected behaviour: `Path` is included as source code.
-* Actuel behaviour: `Path` is included as source code.
+* Actual behaviour: `Path` is included as source code.
