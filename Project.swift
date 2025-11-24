@@ -18,7 +18,7 @@ let project = Project(
             ),
             sources: ["CacheProfile/Sources/**"],
             resources: ["CacheProfile/Resources/**"],
-            dependencies: []
+            dependencies: [.external(name: "Path")]
         ),
         .target(
             name: "CacheProfileTests",
